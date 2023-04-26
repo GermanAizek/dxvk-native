@@ -124,7 +124,7 @@ typedef struct LUID {
   DWORD LowPart;
   LONG  HighPart;
 } LUID;
-
+/*
 typedef struct POINT {
   LONG x;
   LONG y;
@@ -138,12 +138,12 @@ typedef struct RECT {
   LONG right;
   LONG bottom;
 } RECT,*PRECT,*NPRECT,*LPRECT;
-
+*/
 typedef struct SIZE {
   LONG cx;
   LONG cy;
 } SIZE,*PSIZE,*LPSIZE;
-
+/*
 typedef union {
   struct {
     DWORD LowPart;
@@ -157,7 +157,7 @@ typedef union {
 
   LONGLONG QuadPart;
 } LARGE_INTEGER;
-
+*/
 typedef struct MEMORYSTATUS {
   DWORD  dwLength;
   SIZE_T dwTotalPhys;
